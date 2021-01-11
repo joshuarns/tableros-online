@@ -5,8 +5,8 @@
       <img src="../assets/img/logo.png" />
     </b-navbar>
     <div class="container content-controllers">
-      <div class="row">
-        <div class="col-sm-3">
+      <div class="row content-row-controller">
+        <div class="col-sm-2">
           <select class="select-bbva">
             <option>Productos</option>
           </select>
@@ -15,7 +15,7 @@
             <label>Seleciona una producto</label>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-2">
           <select class="select-bbva">
             <option>Divisiones</option>
           </select>
@@ -24,7 +24,7 @@
             <label>Seleciona una división</label>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-2">
           <select class="select-bbva">
             <option>Zonas</option>
           </select>
@@ -33,13 +33,22 @@
             <label>Seleciona una zona</label>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-2">
           <select class="select-bbva">
             <option>Sucursales</option>
           </select>
           <div class="content-text-info-select">
             <img src="../assets/img/info.png" />
             <label>Seleciona una sucursal</label>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <select class="select-bbva">
+            <option>Ejecutivo</option>
+          </select>
+          <div class="content-text-info-select">
+            <img src="../assets/img/info.png" />
+            <label>Seleciona una ejecutivo</label>
           </div>
         </div>
       </div>
@@ -155,6 +164,10 @@ hr {
 
 .content-controllers {
   margin-top: 32px;
+}
+
+.content-row-controller {
+  justify-content: center;
 }
 
 .select-bbva {
