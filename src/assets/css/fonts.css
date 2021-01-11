@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'BentonSansBBVA-Book';
+    src: url("../fonts/BentonSansBBVA-Book.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'BentonSansBBVA-Bold';
+    src: url("../fonts/BentonSansBBVA-Bold.ttf") format("truetype");
+}
+
+
+@font-face {
+    font-family: 'BentonSansBBVA-Medium';
+    src: url("../fonts/BentonSansBBVA-Medium.ttf") format("truetype");
+}
